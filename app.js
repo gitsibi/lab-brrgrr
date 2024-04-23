@@ -46,32 +46,32 @@ function renderPatty() {
 }
 
 function renderCheese() {
+  //Trial 1 - Change the visibility of cheese based on state by manipulating the DOM
   let cheese=document.querySelector("#cheese");
   if(state.Cheese){
     cheese.style.display = "block";
   }else{
     cheese.style.display = "none";
   }
-  //Trial 1 - Change the visibility of cheese based on state by manipulating the DOM
 }
 
 function renderTomatoes() {
+    //Trial 1 - Change the visibility of cheese based on state by manipulating the DOM
   let tomatoes=document.getElementById("tomato");
   state.Tomatoes ? tomatoes.style.display = "block" : tomatoes.style.display = "none" ;
-  //Trial 1 - Change the visibility of Tomatoes based on state by manipulating the DOM
 }
 
 function renderOnions() {
 
+  //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
   let onions=document.getElementById("onion");
   state.Onions ? onions.style.display = "block" : onions.style.display = "none" ;
-  //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
 }
 
 function renderLettuce() {
+  //Trial 1 - Change the visibility of Lettuce based on state by manipulating the DOM
   let lettuce=document.getElementById("lettuce");
   state.Lettuce ? lettuce.style.display = "block" : lettuce.style.display = "none" ;
-  //Trial 1 - Change the visibility of Lettuce based on state by manipulating the DOM
 }
 
 document.querySelector(".btn-patty").onclick = function () {
