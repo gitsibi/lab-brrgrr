@@ -230,3 +230,13 @@ body {
 	font-family: Nunito Sans;
 	font-style: normal;
 }
+
+.ingredients-board
+{
+    background-color: rgb(250, 0, 42);
+    padding: 30px 30px;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Rubik";
+}
